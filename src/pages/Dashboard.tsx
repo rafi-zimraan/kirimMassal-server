@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import api from "../lib/api";
 import useAuthStore from "../store/authStore";
-import { DashboardStats } from "../types/stats";
+import type { DashboardStats } from "../types";
 
 // ─── Stat Card ─────────────────────────────────────────────────
 interface StatCardProps {

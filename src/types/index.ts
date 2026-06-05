@@ -80,3 +80,5 @@ export interface ApiError {
   message: string;
   errors?: { msg: string; path: string }[];
 }
+
+export type { DashboardStats } from "./stats";
